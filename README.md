@@ -43,4 +43,18 @@ clustering-project/
 2. **Normalización**
    - Aplica normalización Z-score para estandarizar los datos
    - Asegura que todas las variables contribuyan equitativamente al análisis
+   
+### Análisis de Clustering
+El script implementa el algoritmo K-means, que:
+1. **Inicialización**
+   - Comienza con k centroides aleatorios (k = número de clusters deseados)
+   - Utiliza múltiples inicializaciones (nstart = 25) para encontrar la mejor solución
 
+2. **Iteración**
+   - Asigna cada punto al centroide más cercano
+   - Recalcula los centroides basándose en las nuevas asignaciones
+   - Repite hasta la convergencia (máximo 100 iteraciones)
+
+3. **Visualización**
+   - Genera gráficos de dispersión con clusters coloreados
+   - Implementa visualizaciones para k=2 y k=3 clusters
