@@ -58,3 +58,15 @@ El script implementa el algoritmo K-means, que:
 3. **Visualización**
    - Genera gráficos de dispersión con clusters coloreados
    - Implementa visualizaciones para k=2 y k=3 clusters
+
+4. **Determinación del Número Óptimo de Clusters**
+   - Utiliza el método "elbow" (WSS: Within-cluster Sum of Squares)
+   - Ayuda a determinar el número más apropiado de clusters
+
+## Requisitos de Software
+- R version 4.0 o superior
+- Paquetes de R requeridos:
+  - dplyr
+  - ggplot2
+  - factoextra
+  - stats
