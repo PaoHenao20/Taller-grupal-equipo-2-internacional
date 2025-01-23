@@ -70,3 +70,33 @@ El script implementa el algoritmo K-means, que:
   - ggplot2
   - factoextra
   - stats
+    
+## Objetivos del Proyecto
+- Identificar patrones en los datos de expresión génica.
+- Agrupar genes con perfiles de expresión similares.
+- Facilitar la identificación de grupos funcionales o coregulados.
+
+## Instrucciones para Contribuir
+1. Hacer un fork del repositorio.
+2. Crear una nueva rama.
+3. Realiza tus cambios y confirma.
+4. Envía los cambios a tu rama.
+5. Abre un Pull Request para que tus cambios sean revisados.
+
+## Notas de la Versión
+- **v1.0.0**: Versión inicial.
+- **v1.1.0**: Cambio realizado.
+
+## Licencia
+Este proyecto está licenciado bajo la Licencia GNU.
+
+## Créditos
+Danitza Castañeda Peña
+Sebastian Osorio Sepulveda
+Paola Andrea Henao Suárez
+Juan Carlos Mariños Legendre
+Ruben Darío Ferro Mauricio
+
+## Historial de Cambios
+- v1.0.0: Versión inicial.
+- v1.1.0: Cambio realizado.
